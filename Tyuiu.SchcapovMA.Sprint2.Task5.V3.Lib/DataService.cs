@@ -9,7 +9,7 @@ namespace Tyuiu.SchcapovMA.Sprint2.Task5.V3.Lib
             switch (value)
             {
                 case 1:
-                    res = "Понидельник";
+                    res = "Понедельник";
                     break;
                 case 2:
                     res = "Вторник";

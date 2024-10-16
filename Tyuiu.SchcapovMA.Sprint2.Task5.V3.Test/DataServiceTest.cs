@@ -8,7 +8,7 @@ namespace Tyuiu.SchcapovMA.Sprint2.Task5.V3.Test
         public void FindDayName()
         {
            DataService ds = new DataService();
-            Assert.AreEqual("Понидельник", ds.FindDayName(1));
+            Assert.AreEqual("Понедельник", ds.FindDayName(1));
             Assert.AreEqual("Вторник", ds.FindDayName(2));
             Assert.AreEqual("Среда", ds.FindDayName(3));
             Assert.AreEqual("Четверг", ds.FindDayName(4));
